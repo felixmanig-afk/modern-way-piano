@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://modernwaypiano.com
+
+# Sitemaps
+Sitemap: https://modernwaypiano.com/sitemap.xml

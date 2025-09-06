@@ -1,0 +1,26 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Musical Note Symbol -->
+  <g transform="translate(100, 20)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="8" rx="6" ry="4" fill="url(#noteGradient)"/>
+    <!-- Note stem -->
+    <rect x="4" y="-8" width="2" height="16" fill="url(#noteGradient)"/>
+    <!-- Flag -->
+    <path d="M6 -8 Q12 -12 12 -6 Q12 0 6 -4" fill="url(#noteGradient)"/>
+    <!-- Second note -->
+    <ellipse cx="12" cy="8" rx="6" ry="4" fill="url(#noteGradient)"/>
+    <rect x="16" y="-8" width="2" height="16" fill="url(#noteGradient)"/>
+    <path d="M18 -8 Q24 -12 24 -6 Q24 0 18 -4" fill="url(#noteGradient)"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="55" text-anchor="middle" fill="white" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" letter-spacing="2px">MODERN WAY PIANO</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="noteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

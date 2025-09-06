@@ -1,0 +1,196 @@
+{
+  "site": {
+    "name": "Modern Way Piano",
+    "domain": "modernwaypiano.com",
+    "logoFont": "Montserrat Bold",
+    "logoSymbol": "/brand/logo-orange.png"
+  },
+  "hero": {
+    "headline": "Piano Courses Designed To Make Learning Quick And Easy",
+    "buttonText": "Book your first lesson here",
+    "buttonUrl": "https://calendly.com/chloe-angelopoulou",
+    "videoSrc": "/video/site_snippets-1.mov",
+    "poster": "/video/poster.jpg"
+  },
+  "intro": {
+    "lead": "Hi, I'm Chloe — a former corporate professional turned pianist and teacher. I help students of all ages discover the joy of playing piano with lessons that are structured, motivating, and tailored to you."
+  },
+  "lessons": {
+    "why": "I created Modern Way Piano™—my proprietary, song-first teaching method—to make learning simple, motivating, and achievable. Instead of random exercises, I put complete songs at the center of every lesson so your progress is obvious and enjoyable.\nMost beginners play a full piece within a few weeks, and with steady practice many comfortably perform a song they love within 60 days.",
+    "method": {
+      "title": "How my Modern Way Piano™ method works",
+      "steps": [
+        {
+          "title": "Assess",
+          "description": "I start by understanding your goals and current level in a relaxed first session."
+        },
+        {
+          "title": "Plan", 
+          "description": "I give you a simple weekly plan with micro-goals and the exact steps to follow."
+        },
+        {
+          "title": "Practice",
+          "description": "I design short, focused sessions using song excerpts, play-along tracks, and technique-without-tension."
+        },
+        {
+          "title": "Review",
+          "description": "I review your progress with you, adjust the plan, and choose the next song so momentum stays high."
+        }
+      ]
+    },
+    "inPerson": "I work with you at the piano—hands-on guidance, immediate feedback on posture, sound, and feel. Expect calm focus, clear demonstrations, and duet moments that build confidence fast.",
+    "online": "I bring the same energy and structure to your home using high-quality audio/video and annotated screen share. After each lesson, I send you the digital resources you need so practice is effortless."
+  },
+  "benefits": {
+    "title": "Pillars of my Modern Way Piano™ method",
+    "clarity": {
+      "title": "Clarity",
+      "description": "I make the path obvious—no guessing, no overwhelm.",
+      "items": [
+        "I give you a one-page weekly plan with exactly what to do.",
+        "Practice happens in 15–20 minute blocks that fit real life.",
+        "You get checklists + short demo clips so you can self-correct between lessons."
+      ],
+      "result": "Result: you always know what to practice and why it matters."
+    },
+    "fundamentals": {
+      "title": "Fundamentals",
+      "description": "I build skills that feel good in your hands and sound musical.",
+      "items": [
+        "Tension-free technique: posture, hand shape, and touch you can feel.",
+        "Groove & timing with metronome work and musical play-alongs.",
+        "Read while you play: note reading grows alongside chords & ear training."
+      ],
+      "result": "Result: solid mechanics without strain—and real confidence at the keys."
+    },
+    "momentum": {
+      "title": "Momentum",
+      "description": "I keep you moving with music you love and clear checkpoints.",
+      "items": [
+        "We pick songs you actually want to play—from Beethoven to Billie Eilish.",
+        "Every few weeks we record or perform a mini-milestone.",
+        "Between lessons, I'm on WhatsApp for quick feedback and motivation."
+      ],
+      "result": "Result: steady, visible progress you enjoy (and can share)."
+    }
+  },
+  "courses": [
+    { 
+      "slug": "beginner", 
+      "title": "Beginner", 
+      "summary": "Start from zero with clear, encouraging steps toward your first full song.",
+      "details": [
+        "Basic hand position and posture",
+        "Simple scales and finger exercises",
+        "Reading basic sheet music",
+        "Your first complete song",
+        "Understanding rhythm and timing",
+        "Building confidence and motivation"
+      ]
+    },
+    { 
+      "slug": "intermediate", 
+      "title": "Intermediate", 
+      "summary": "Strengthen technique, musicality, and repertoire while filling any knowledge gaps.",
+      "details": [
+        "Advanced scales and arpeggios",
+        "Complex chord progressions",
+        "Sight-reading improvement",
+        "Music theory fundamentals",
+        "Performance techniques",
+        "Expanding your repertoire"
+      ]
+    },
+    { 
+      "slug": "advanced", 
+      "title": "Advanced", 
+      "summary": "Refine expression, tackle challenging pieces, and develop a confident performance mindset.",
+      "details": [
+        "Master-level technique refinement",
+        "Complex classical and modern pieces",
+        "Advanced music theory and analysis",
+        "Performance and stage presence",
+        "Composition and arrangement",
+        "Teaching and mentoring skills"
+      ]
+    }
+  ],
+  "pricing": {
+    "meta": {
+      "currency": "GBP",
+      "perLessonAssumption": 4
+    },
+    "plans": {
+      "monthly": {
+        "50": 190,
+        "30": 114
+      },
+      "annual": {
+        "50": 180,
+        "30": 108
+      },
+      "payg": {
+        "50": 50
+      }
+    },
+    "labels": {
+      "monthly50": "Most popular. Best for steady weekly progress and adults.",
+      "monthly30": "Great for kids or very busy schedules.",
+      "annual50": "Commit & save. Same benefits, lower price.",
+      "annual30": "Commit & save. Same benefits, lower price.",
+      "payg50": "Try lessons without a subscription."
+    },
+    "included": [
+      "Training materials, practice books, video & audio guides",
+      "Repertoire of 200+ songs for all levels",
+      "Personalised WhatsApp support",
+      "Friends & Family referral discounts"
+    ],
+    "policies": [
+      "I'll always try to accommodate changes with advance notice. Please give 24 hours where possible so I can offer you the next available slot.",
+      "Cancel anytime (Monthly) / Pause during holidays (Annual)",
+      "Personalised WhatsApp support",
+      "No registration fees"
+    ],
+    "calendlyUrl": "https://calendly.com/chloe-angelopoulou"
+  },
+  "about": {
+    "bio": [
+      "I've been at the piano since age 6, and by 14 I was already teaching and performing publicly. While I'm classically trained, I also love the freedom of playing by ear and arranging my own covers.",
+      "As a Greek-Lebanese musician who grew up internationally, my playing and teaching reflect a blend of cultures and experiences. For me, music is about connection — a journey I love sharing with others.",
+      "Success at the piano isn't just about technique; it's about playing with heart. That's how I teach: discipline with warmth, high standards with fun, and genuine care for each student's progress."
+    ],
+    "stats": {
+      "students": "100+ Students Taught",
+      "training": "Classical and Modern Trained",
+      "experience": "10+ years of teaching"
+    },
+    "youtube": "https://www.youtube.com/@chloeangelopoulou"
+  },
+  "testimonials": [
+    { "name": "Karl", "quote": "Learning piano with Kloe has been a fantastic experience! Lessons are fun and comprehensive and Kloe is very kind and patient. She has been great at identifying areas I need to improve on and given me helpful exercises to master my technical skills. She has high standards, yet is patient and her lessons are fun. I can strongly recommend Kloe to anyone looking for a piano teacher." },
+    { "name": "Alex", "quote": "Kloe is a truly great piano teacher who is kind and dedicated in every lesson. She takes her time to explain the 'why' behind each exercise and knows music theory so well. Kloe's lessons are fun and engaging and she cares a lot about my progress." },
+    { "name": "Mona", "quote": "I strongly recommend Kloe as a piano teacher. She is great at helping me avoid mistakes when playing the piano and does it in an encouraging manner, which has helped me improve a lot since I first started lessons with her. Lessons are always engaging and the hour passes by really quickly!" },
+    { "name": "Sanja", "quote": "I would highly recommend Kloe as a teacher. She teaches my 10 year old daughter level 1, at present. She's kind and patient, and punctual. My daughter says: 'Kloe knows to find the way that suits me so I can learn if something is hard to pick up.' I think that's quite important skill for the teacher." },
+    { "name": "Sabine", "quote": "Kloe is a fantastic piano teacher — kind, patient, and very reliable. My 9-year-old daughter loves learning with her, and I've also started lessons myself. Kloe adapts her teaching beautifully for both kids and adults. We highly recommend her!" },
+    { "name": "Taljeet", "quote": "I've been taking piano lessons with Kloe since the beginning of this year, and I couldn't be more content! Kloe is incredibly patient, knowledgeable, and is able to tailor each lesson to my pace and goals. These lessons are always well-structured and engaging, combining sheet music with scales, arpeggios and chords - her teaching method makes complex techniques more understandable. I highly recommended Kloe to anyone looking to learn piano, whether you're a complete beginner, or looking to refine your skills." },
+    { "name": "Felix", "quote": "Kloe is an incredible piano teacher who helped me bring my skills to a whole new level over the past 6 months! Her expertise in piano is evident from the very first lesson, and she has an amazing ability to break down complex techniques in a way that's easy to understand. I felt like I was plateauing on my skill level, and Kloe knew exactly how to help me move forward with confidence. What I appreciate most is her kind and encouraging approach. She's always patient, never intimidating, and makes you feel comfortable no matter where you're starting from. Each lesson is not only productive but also fun—she brings so much positive energy and creativity that learning feels like an exciting journey, not a chore. Kloe truly made the process enjoyable and rewarding, and I can't recommend her enough for anyone looking to improve their piano skills!" }
+  ],
+  "contact": {
+    "email": "chloe.anghelo@gmail.com",
+    "phone": "+44 7874 708762",
+    "whatsapp": "+44 7874 708762",
+    "available": "In-person in London & online worldwide",
+    "bookCta": "Schedule your first lesson",
+    "bookUrl": "https://calendly.com/chloe-angelopoulou"
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/@chloeangelopoulou",
+    "instagram": ""
+  },
+  "seo": {
+    "defaultTitle": "Modern Way Piano",
+    "defaultDescription": "Piano lessons designed to make learning quick and easy — in London or online. Structured, motivating, and tailored to you.",
+    "locality": "London, UK"
+  }
+}
