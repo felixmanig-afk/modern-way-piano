@@ -17,16 +17,35 @@ export interface Intro {
   lead: string;
 }
 
+export interface MethodStep {
+  title: string;
+  description: string;
+}
+
+export interface Method {
+  title: string;
+  steps: MethodStep[];
+}
+
 export interface Lessons {
   why: string;
+  method: Method;
   inPerson: string;
   online: string;
 }
 
+export interface BenefitItem {
+  title: string;
+  description: string;
+  items: string[];
+  result: string;
+}
+
 export interface Benefits {
-  simple: string[];
-  foundations: string[];
-  journey: string[];
+  title: string;
+  clarity: BenefitItem;
+  fundamentals: BenefitItem;
+  momentum: BenefitItem;
 }
 
 export interface Course {
@@ -36,19 +55,40 @@ export interface Course {
   details: string[];
 }
 
-export interface PricingPlan {
-  title: string;
-  price: string;
-  details?: string[];
-  note?: string;
+export interface PricingMeta {
+  currency: string;
+  perLessonAssumption: number;
+}
+
+export interface PricingPlans {
+  monthly: {
+    "50": number;
+    "30": number;
+  };
+  annual: {
+    "50": number;
+    "30": number;
+  };
+  payg: {
+    "50": number;
+  };
+}
+
+export interface PricingLabels {
+  monthly50: string;
+  monthly30: string;
+  annual50: string;
+  annual30: string;
+  payg50: string;
 }
 
 export interface Pricing {
-  monthly50: PricingPlan;
-  monthly30: PricingPlan;
-  annual50: PricingPlan;
-  annual30: PricingPlan;
-  payg: PricingPlan;
+  meta: PricingMeta;
+  plans: PricingPlans;
+  labels: PricingLabels;
+  included: string[];
+  policies: string[];
+  calendlyUrl: string;
 }
 
 export interface About {
@@ -56,6 +96,7 @@ export interface About {
   stats: {
     students: string;
     training: string;
+    experience: string;
   };
   youtube: string;
 }
@@ -68,6 +109,7 @@ export interface Testimonial {
 export interface Contact {
   email: string;
   phone: string;
+  whatsapp: string;
   available: string;
   bookCta: string;
   bookUrl: string;
