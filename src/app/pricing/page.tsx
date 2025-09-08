@@ -53,22 +53,6 @@ export default function PricingPage() {
     return (monthlyPrice - annualPrice) * 12;
   };
 
-  // Get ribbon for current plan
-  const getRibbon = () => {
-    if (billing === 'monthly' && duration === '50') {
-      return { text: 'Most popular', type: 'popular' as const };
-    }
-    if (billing === 'annual' && duration === '50') {
-      const savings = getSavings();
-      return { text: `Best value • Save ${pricing.meta.currency}${savings} / year`, type: 'savings' as const };
-    }
-    if (billing === 'annual' && duration === '30') {
-      const savings = getSavings();
-      return { text: `Save ${pricing.meta.currency}${savings} / year`, type: 'savings' as const };
-    }
-    return undefined;
-  };
-
   // Get plan cards to display
   const getPlanCards = () => {
     if (billing === 'payg') {
